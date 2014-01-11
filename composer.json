@@ -15,7 +15,8 @@
     ],
     "homepage": "http://www.codeliner.ws",
     "require": {
-        "codeliner/php-equalsbuilder": "1.1.*"
+        "codeliner/php-equalsbuilder": "1.1.*",
+        "beberlei/assert": "*"
     },
     "autoload": {
         "psr-0": {

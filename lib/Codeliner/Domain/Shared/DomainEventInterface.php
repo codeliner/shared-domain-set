@@ -18,5 +18,5 @@ interface DomainEventInterface
     /**
      * @return \DateTime
      */
-    public function occuredOn();
+    public function occurredOn();
 }
