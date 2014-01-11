@@ -1,0 +1,35 @@
+{
+    "name": "codeliner/shop",
+    "description": "Shop",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "framework",
+        "zf2"
+    ],
+    "authors": [
+        {
+            "name": "Alexander Miertsch",
+            "email": "kontakt@codeliner.ws",
+            "homepage": "http://www.codeliner.ws/"
+        }
+    ],
+    "homepage": "http://www.codeliner.ws",
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": "2.*",
+        "doctrine/doctrine-orm-module": "*",
+        "codeliner/php-equalsbuilder": "1.1.*"
+    },
+    "require-dev" : {
+        "phpunit/phpunit": "3.7.*",
+        "behat/behat": "2.4.*@stable",
+        "behat/mink": "1.4@stable",
+        "behat/mink-extension": "*",
+        "behat/mink-goutte-driver": "*",
+        "behat/mink-selenium2-driver": "*"
+    },
+    "config": {
+        "bin-dir": "bin/"
+    }
+}
+
