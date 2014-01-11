@@ -1,10 +1,10 @@
 {
-    "name": "codeliner/shop",
-    "description": "Shop",
+    "name": "codeliner/shared-domain-set",
+    "description": "Collection of common DDD interfaces",
     "license": "BSD-3-Clause",
     "keywords": [
-        "framework",
-        "zf2"
+        "DDD",
+        "Domain Driven Design"
     ],
     "authors": [
         {
@@ -15,21 +15,12 @@
     ],
     "homepage": "http://www.codeliner.ws",
     "require": {
-        "php": ">=5.3.3",
-        "zendframework/zendframework": "2.*",
-        "doctrine/doctrine-orm-module": "*",
         "codeliner/php-equalsbuilder": "1.1.*"
     },
-    "require-dev" : {
-        "phpunit/phpunit": "3.7.*",
-        "behat/behat": "2.4.*@stable",
-        "behat/mink": "1.4@stable",
-        "behat/mink-extension": "*",
-        "behat/mink-goutte-driver": "*",
-        "behat/mink-selenium2-driver": "*"
-    },
-    "config": {
-        "bin-dir": "bin/"
+    "autoload": {
+        "psr-0": {
+            "Codeliner\\Domain\\Shared": "lib/"
+        }
     }
 }
 
