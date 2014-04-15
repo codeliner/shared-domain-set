@@ -8,6 +8,8 @@
  */
 namespace Codeliner\Domain\Shared;
 
+use Rhumsaa\Uuid\Uuid;
+
 /**
  * Interface DomainEventInterface
  * 
@@ -16,7 +18,22 @@ namespace Codeliner\Domain\Shared;
 interface DomainEventInterface
 {
     /**
+     * @return Uuid
+     */
+    public function uuid();
+
+    /**
+     * @return int
+     */
+    public function version();
+
+    /**
      * @return \DateTime
      */
     public function occurredOn();
+
+    /**
+     * @return array
+     */
+    public function payload();
 }
