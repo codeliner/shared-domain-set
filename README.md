@@ -10,5 +10,5 @@ Installation of codeliner/shared-domain-set uses composer. For composer document
 
 
 ```sh
-"codeliner/shared-domain-set" : "1.1.*"
+"codeliner/shared-domain-set" : "1.2.*"
 ```
