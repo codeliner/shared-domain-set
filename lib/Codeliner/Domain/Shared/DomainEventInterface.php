@@ -9,6 +9,7 @@
 namespace Codeliner\Domain\Shared;
 
 use Rhumsaa\Uuid\Uuid;
+use ValueObjects\DateTime\DateTime;
 
 /**
  * Interface DomainEventInterface
@@ -28,7 +29,7 @@ interface DomainEventInterface
     public function version();
 
     /**
-     * @return \DateTime
+     * @return DateTime
      */
     public function occurredOn();
 
