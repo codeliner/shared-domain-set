@@ -16,6 +16,7 @@
     "homepage": "http://www.codeliner.ws",
     "require": {
         "codeliner/php-equalsbuilder": "1.1.*",
+        "nicolopignatelli/valueobjects": "2.*",
         "beberlei/assert": "*",
         "rhumsaa/uuid" : "2.5.*"
     },
